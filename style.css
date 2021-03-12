@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background-color: #184d47;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+.tasbex{
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+#btn{
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #295939;
+    border: none;
+    box-shadow: 2px 2px 2px;
+    border-radius: 15px;
+    color: #fff;
+}
+h2{
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+h3{
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+}
+h4{
+    display: none;
+}
+.author{
+    position: relative;
+    top: 0;
+}
+.lt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.rt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+.lb{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+.rb{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+@media (max-width:800px) {
+    .frame{
+        width: 250px;
+        height: 250px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    #btn{
+        padding: 0.5rem 1.5rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    .tasbex{
+        margin-top: 7rem;
+    }
+
+}
